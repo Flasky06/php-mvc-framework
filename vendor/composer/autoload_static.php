@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitaa4042ccb63e86a2d0195f5a0450f454
 {
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
         'B' => 
         array (
             'Bony\\PhpMvcFramework\\' => 21,
@@ -14,6 +18,10 @@ class ComposerStaticInitaa4042ccb63e86a2d0195f5a0450f454
     );
 
     public static $prefixDirsPsr4 = array (
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
+        ),
         'Bony\\PhpMvcFramework\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',

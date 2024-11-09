@@ -2,7 +2,8 @@
     "name": "bony/php-mvc-framework",
     "autoload": {
         "psr-4": {
-            "Bony\\PhpMvcFramework\\": "src/"
+            "Bony\\PhpMvcFramework\\": "src/",
+            "app\\": "./"
         }
     },
     "authors": [

@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'app\\' => array($baseDir . '/'),
     'Bony\\PhpMvcFramework\\' => array($baseDir . '/src'),
 );
