@@ -1,0 +1,15 @@
+{
+    "name": "bony/php-mvc-framework",
+    "autoload": {
+        "psr-4": {
+            "Bony\\PhpMvcFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "flasky06",
+            "email": "bonnienjuguna106@gmail.com"
+        }
+    ],
+    "require": {}
+}
